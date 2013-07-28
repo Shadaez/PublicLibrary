@@ -138,7 +138,6 @@ Book("Harry Potter and the Order of the Phoenix","J. K. Rowling", shelf)
 Book("Harry Potter and the Half-Blood Prince","J. K. Rowling", shelf2)
 Book("Harry Potter and the Deathly Hallows","J. K. Rowling", shelf)
 
-print "should have all"
 print port_orchard_library.list_books()
 
 #oops we threw away all the shelves
@@ -151,6 +150,5 @@ print ', '.join([str(x) for x in port_orchard_library.unshelved_books])
 port_orchard_library.add_shelf()
 #they will all populate it
 print str(port_orchard_library.shelf[0])
-print port_orchard_library.list_books()
 
 #Hope this is OK! I think I debugged it all but who knows.
